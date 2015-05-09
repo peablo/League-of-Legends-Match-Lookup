@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search_drawable"
+        app:showAsAction="always"
+        android:title="@string/search_hint"/>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/refresh_drawable"
+        app:showAsAction="ifRoom"
+        android:title="@string/refresh"/>
+
+    <item android:id="@+id/action_delete_history"
+        android:title="@string/deleteHistory"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+</menu>

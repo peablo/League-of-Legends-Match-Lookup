@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_actionbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/colorPrimary"
+
+    app:theme="@style/MyToolbarStyle"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+    app:elevation="0dp">
+
+    <LinearLayout
+        android:id="@+id/search_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/summoner_search"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            app:queryHint="@string/search_hint"
+            app:iconifiedByDefault="false" />
+<!--
+        <Spinner
+            android:id="@+id/region_spinner"
+            android:layout_weight="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:entries="@array/regions"
+
+            />
+-->
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

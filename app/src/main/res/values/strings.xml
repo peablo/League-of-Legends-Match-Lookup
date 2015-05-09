@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Match Lookup</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configuración</string>
+
+    <string name="introducesummname">Introduce tu nombre de invocador</string>
+    <string name="next">SIGUIENTE</string>
+    <string name="skip">OMITIR</string>
+
+    <string name="summname">
+        Nombre de invocador
+    </string>
+
+    <string name="save">
+        GUARDAR
+    </string>
+
+    <string name="back">
+        VOLVER
+    </string>
+
+    <string name="invalidNameWarning">
+        Por favor, introduce un nombre de invocador válido
+    </string>
+
+
+    <string name="notInAGame">
+        El invocador seleccionado está tomándose un descanso en este instante, por favor, inténtalo de nuevo cuando esté de vuelta en la Grieta del Invocador.
+    </string>
+
+    <string name="noSummName">
+        Busca un invocador por nombre o guarda el tuyo.
+    </string>
+
+    <string name="blueteam">
+        Equipo azul
+    </string>
+
+    <string name="redteam">
+        Equipo rojo
+    </string>
+
+    <string name="search_hint">
+        Buscar invocador
+    </string>
+
+    <string name="region">
+        Región
+    </string>
+
+    <string name="deleteHistory">
+        Borrar búsquedas recientes
+    </string>
+
+    <string name="historyDeleted">
+        Historial de búsqueda borrado
+    </string>
+
+    <string name="config">
+        Configuración
+    </string>
+
+    <string name="refresh">
+        Actualizar
+    </string>
+
+
+    <string name="BR">BR</string>
+    <string name="EUNE">EUNE</string>
+    <string name="EUW">EUW</string>
+    <string name="KR">KR</string>
+    <string name="LAN">LAN</string>
+    <string name="LAS">LAS</string>
+    <string name="NA">NA</string>
+    <string name="OCE">OCE</string>
+    <string name="RU">RU</string>
+    <string name="TR">TR</string>
+
+    <string-array name="regions">
+        <item>EUW</item>
+        <item>NA</item>
+        <item>EUNE</item>
+        <item>KR</item>
+        <item>OCE</item>
+        <item>LAN</item>
+        <item>LAS</item>
+        <item>BR</item>
+        <item>RU</item>
+        <item>TR</item>
+    </string-array>
+
+
+
+
+</resources>
